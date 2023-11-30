@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.grid {
+  margin: auto;
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  border: solid black 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.invader {
+  background-color: purple;
+  border-radius: 10px;
+}
+
+.player {
+  background-color: red;
+  border-radius: 5px;
+}
+
+.laser {
+  background-color: yellow;
+  border-radius: 10px;
+}
+
+.boom {
+  background-color: orange;
+}
+
+#results-display {
+  margin: auto;
+  text-align: center;
+}
